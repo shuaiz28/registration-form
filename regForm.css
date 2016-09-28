@@ -1,0 +1,30 @@
+.container {
+     border: 2px solid #428cba;
+     padding:0 20px 20px;
+     width: 300px;
+     margin:auto;
+}
+.container input[type='text'], input[type='email'], input[type='password']{
+    width:98%;
+    margin-top: 5px;
+    padding: 5px;
+}
+.error {
+    color: #FF0000;
+}
+#resetBtn {
+    margin-top:15px;
+    padding:5px;
+    font-size:20px;
+    background-color: #f4f4f4;
+    cursor:pointer;  
+}
+#submitBtn {
+    margin-top:15px;
+    padding:5px;
+    font-size:20px;
+    background-color: #428cba;
+    color:#ffffff;
+    cursor:pointer; 
+    float:right;
+}
